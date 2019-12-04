@@ -286,7 +286,6 @@ footer {
     align-content: stretch;
     width: 100%;
     padding: 0px;
-    border: solid green;
   }
   .home .walk .walk-image {
     width: 100%;
@@ -295,7 +294,6 @@ footer {
     margin: 0px;
   }
   .home .walk .walk-text {
-    border: solid red;
     padding: 0px;
     margin: 0px;
     width: 100%;
