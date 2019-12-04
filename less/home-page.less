@@ -1,17 +1,18 @@
 // Home Content
 
 .home {
-
   .intro {
-
     h2 {
       padding: 15px;
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
+  }
+
+  .header-img {
+    border-radius: 5px;
   }
 
   .space-images {
@@ -58,31 +59,30 @@
       }
 
       .btn {
-        padding: 15px 30px; 
-        background-color:  @btn-bg-color;
-        color: @wild-sand; 
+        padding: 15px 30px;
+        background-color: @btn-bg-color;
+        color: @wild-sand;
         cursor: pointer;
+        .border-radius(8px); // PARAMETRIC MIXIN
 
         &:hover {
           background-color: @wild-sand;
           color: @btn-bg-color;
         }
-     }
-
-    }
-
-    }
-  
-    .walk-img {
-      width: 46%;
-      margin-left: 4%;
-      
-      img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
       }
     }
   }
+
+  .walk-img {
+    width: 46%;
+    margin-left: 4%;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+}
 
 // home

@@ -1,13 +1,18 @@
 // Mixins Here
 
-.btn {
- .border-radius (8px);
+.row-end-center() {
+  display: flex;
+  flex-direction: row-end;
+  justify-content: center;
 }
+
+.links() {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+// Parametric Mixin
 
 .border-radius (@radius) {
-    border-radius: @radius;
-}
-
-.header-img {
-    border-radius: 5px;
+  border-radius: @radius;
 }

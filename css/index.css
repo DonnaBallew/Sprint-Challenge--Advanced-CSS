@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media (max-width: 500px) {
   body {
     width: 80%;
   }
@@ -10,12 +10,6 @@
     width: 100%;
     height: auto;
   }
-}
-.btn {
-  border-radius: 8px;
-}
-.header-img {
-  border-radius: 5px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -154,7 +148,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -162,7 +156,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h2 {
   font-size: 3.2rem;
@@ -184,12 +178,12 @@ h1 {
   display: flex;
   justify-content: center;
   padding: 30px 0 0px 0;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 .navigation {
-  background-color: #F6F6F6;
-  font: #454A59;
-  border: #F1F1F1;
+  background-color: #f6f6f6;
+  font: #454a59;
+  border: #f1f1f1;
   width: 100%;
 }
 .navigation .nav-bar {
@@ -198,7 +192,7 @@ h1 {
   justify-content: center;
 }
 .navigation .nav-bar a {
-  color: #454A59;
+  color: #454a59;
   padding: 20px;
   text-decoration: none;
   font-weight: 400;
@@ -219,6 +213,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .header-img {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
@@ -258,13 +255,14 @@ footer {
 }
 .home .walk .walk-text .btn {
   padding: 15px 30px;
-  background-color: #22283A;
-  color: #F6F6F6;
+  background-color: #22283a;
+  color: #f6f6f6;
   cursor: pointer;
+  border-radius: 8px;
 }
 .home .walk .walk-text .btn:hover {
-  background-color: #F6F6F6;
-  color: #22283A;
+  background-color: #f6f6f6;
+  color: #22283a;
 }
 .home .walk-img {
   width: 46%;
