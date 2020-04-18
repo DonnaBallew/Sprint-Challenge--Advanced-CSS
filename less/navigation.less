@@ -1,1 +1,45 @@
 // Navigation code here
+
+.navigation {
+  background-color: @nav-bg;
+  font: @nav-font;
+  border: @nav-border;
+  width: 100%;
+  position: fixed;
+
+  .nav-title {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0px 0;
+    background-color: @nav-bg;
+  }
+
+  .nav-bar {
+    .row-end-center(); //MIXIN
+    background-color: #9ebec8;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+
+    a {
+      color: @nav-font;
+      padding: 25px;
+      .links(); // MIXIN
+      font-size: 1.9rem;
+      text-align: center;
+      &:hover {
+        background-color: rgb(197, 193, 193);
+        color: white;
+      }
+
+      @media @tablet {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+@media @phone {
+  width: 100%;
+}

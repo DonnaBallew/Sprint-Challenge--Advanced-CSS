@@ -1,1 +1,35 @@
 // Mixins Here
+
+.row-end-center() {
+  display: flex;
+  flex-direction: row-end;
+  justify-content: center;
+}
+
+.links() {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.flex-column {
+  display: flex;
+  flex-flow: column;
+}
+
+// Parametric Mixin
+
+.button-mixin(@backgroundColor, @foregroundColor) {
+  background: @backgroundColor;
+  color: @foregroundColor;
+  font-size: 16px;
+  height: 55px;
+  width: 120px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  &:hover {
+    background: @foregroundColor;
+    color: @backgroundColor;
+    border: solid;
+  }
+}
