@@ -227,6 +227,11 @@ footer {
   border-radius: 5px;
   margin-top: 138px;
 }
+@media (max-width: 550px) {
+  .home .header-img {
+    margin-top: 132px;
+  }
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
